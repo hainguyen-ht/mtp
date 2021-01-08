@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/fonts/themify-icons/themify-icons.css">
+    <link href="https://mtpentertainment.com/wp-content/themes/v-theme/images/favicon.png" rel="shortcut icon" type="image/x-icon" />
+    <title>M-TP ENTERTAINMENT</title>
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <!-- Nav -->
+            <ul id="nav">
+                <li style="display: inline-block"><a href="#">Home</a></li>
+                <li><a href="#band" onclick=clickItem()>m-tp</a></li>
+                <li><a href="#tour" onclick=clickItem()>Tour</a></li>
+                <li><a href="#contact" onclick=clickItem()>Contact</a></li>
+                <li>
+                    <a href="#">More 
+                        <i class="nav-arrow-down ti-angle-down"></i>
+                    </a>
+                    <ul id="sub-nav" class="subnav">
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Extras</a></li>
+                        <li><a href="#">Media</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- End Nav -->
+            <!-- Menu-Mobile -->
+            <div id="mobile-menu" class="mobile-menu-btn" onclick=state()>
+                <i class="menu-icon ti-menu"></i>
+            </div>
+            <!-- Search -->
+            <div class="search-btn">
+                <i class="search-icon ti-search"></i>
+            </div>
+            <!-- End Search -->
+        </div>
+
+        <div id="slider" style="background-image: url('assets/img/img-slider/sl-1.jpeg');">
+            <div class="text-content">
+                <h3 class="text-heading">Ha Noi</h3>
+                <div class="text-description">Sky Tour 2019: "Sếp" Sơn Tùng M-TP khiến Sky phải đặt câu hỏi lớn!</div>
+            </div>
+            
+        </div>
+        
+
+        <div id="content">
+            <!-- BAND -->
+            <div id="band" class="section-content">
+                <h2 class="section-heading">M-TP ENTERTAINMENT</h2>
+                <p class="section-sub-heading">We love music</p>
+                <p class="about-text">
+                    Còn chờ gì nữa, các Sky hãy note ngay lịch hẹn này: Tại TP.HCM sẽ được gặp gỡ anh chàng vào ngày 12/6, tại Đà Nẵng vào 13/6 còn Thủ đô Hà Nội vào ngày 14/6. Sơn Tùng sẽ lựa chọn suất chiếu nào có đông đảo các Sky nhất để xuất hiện trong rạp để trực tiếp giao lưu với khán giả. Các Sky biết phải làm gì lúc này rồi đấy – cùng tập trung càng đông đảo những bạn bè cùng chí hướng để lấp đầy rạp, tỉ lệ và số lượng Sky trong rạp càng lớn, Sơn Tùng sẽ càng dễ dàng xuất hiện cùng bạn.
+                </p>
+                <div class="members-list">
+                    <div class="member-item">
+                        <p class="member-name">Sơn Tùng</p>
+                        <img src="assets/img/member/sontung-1.jpg" alt="Sơn Tùng M-TP" class="member-img">
+                    </div>
+                    <div class="member-item">
+                        <p class="member-name">Hải Tú</p>
+                        <img src="assets/img/member/haitu-1.jpg" alt="Hải Tú" class="member-img">
+                    </div>
+                    <div class="member-item">
+                        <p class="member-name">Kay Trần</p>
+                        <img src="assets/img/member/kaytran-1.jpg" alt="Kay Trần" class="member-img">
+                    </div>
+                </div>
+                
+            </div>
+            <!-- TOUR -->
+            <div id="tour" class="tour-section">
+                <div class="section-content">
+                    <h2 class="section-heading text-white">TOUR DATES</h2>
+                    <p class="section-sub-heading text-white">Remember to book your tickets!</p>
+                    <ul class="tickers-list">
+                        <li> CGV <span class="sold-out">Sold out</span></li>
+                        <li> Galaxy  <span class="sold-out">Sold out</span></li>
+                        <li> MegaGS <span class="quantity">3</span></li>
+                    </ul>
+                    <div class="places-list row">
+                        <div class="place-item col">
+                            <img src="assets/img/places/hanoi.jpg" alt="newyork" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">Hà Nội</h3>
+                                <p class="place-time">Fri 27 Nov 2016</p>
+                                <p class="place-desc">Số lượng vé SKY TOUR MOVIE bán ra sau 48h đã phá vỡ mọi kỉ lục phim Việt.</p>
+                                <a href="#" class="btn m-btn-center">ĐẶT LỊCH</a>                        
+                            </div>
+                        </div>
+                        <div class="place-item col">
+                            <img src="assets/img/places/danang.jpg" alt="newyork" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">Đà Nẵng</h3>
+                                <p class="place-time">Sat 28 Nov 2016</p>
+                                <p class="place-desc">Các Sky đã sẵn sàng để “sống lại” bầu không khí của Sky Tour – vừa gặp Sơn Tùng</p>
+                                <a href="#" class="btn m-btn-center">ĐẶT LỊCH</a>                        
+                            </div>
+                        </div>
+                        <div class="place-item col">
+                            <img src="assets/img/places/tp-hcm.jpg" alt="newyork" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">Tp. Hồ Chí Minh</h3>
+                                <p class="place-time">Sun 29 Nov 2016</p>
+                                <p class="place-desc">Sky Tour 2019 sẽ chính thức bắt đầu với đêm diễn đầu tiên tại TP.HCM</p>
+                                <a href="#" class="btn m-btn-center">ĐẶT LỊCH</a>                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- CONTACT -->
+            <div id="contact" class="section-content">
+                <h2 class="section-heading">CONTACT</h2>
+                <p class="section-sub-heading">Fan? Drop a note!</p>
+                <div class="row contact-content">
+                    <div class="col col-2 contact-info">
+                        <p><i class="ti-location-pin"> Ha Noi, Viet Nam </i></p>
+                        <p><i class="ti-mobile"> Phone: +8437 3923 766 </i></p>
+                        <p><i class="ti-email"> Email: id.hainguyen92@mail.com </i></p>
+                    </div>
+                    <div class="col col-2 contact-form">
+                        <form action="#">
+                            <div class="row">
+                                <div class="col col-2 ">
+                                    <input type="text" required class="form-control" placeholder="Name">                                    
+                                </div>
+                                <div class="col col-2 m-input">
+                                    <input type="email" required class="form-control" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="row mt-8">
+                                <div class="col col-12">
+                                    <input type="text" required class="form-control" placeholder="Message">
+                                </div>
+                            </div>
+                            <input class=" m-btn-center btn-send mt-16" type="submit" value="SEND">
+                        </form>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- MAP -->
+            <div class="map-section">
+                <img src="assets/img/maps.PNG" alt="map">
+            </div>
+        </div>
+
+        <div id="footer">
+            <div class="socials-list">
+                <a href="#"><i class="ti-facebook"> </i></a>
+                <a href="#"><i class="ti-instagram"> </i></a>
+                <a href="#"><i class="ti-youtube"> </i></a>
+                <a href="#"><i class="ti-pinterest"> </i></a>
+                <a href="#"><i class="ti-twitter"> </i></a>
+                <a href="#"><i class="ti-linkedin"> </i></a>
+            </div>
+            <p class="copyright">Powered by <a href="#">w3.css</a></p>
+        </div>
+        <script>
+            
+            var header = document.getElementById('header')
+            var slider = document.getElementById('slider')
+            var subNav = document.getElementById('sub-nav')
+            var heightMenuMobile = header.clientHeight
+            //click icon navbar
+            var state = function(){
+                if(header.clientHeight === heightMenuMobile){
+                    header.style.height = 'auto'
+                }else{
+                    header.style.height = null
+                }
+            }
+            //click item menu
+            var clickItem = function(){
+                header.style.height = null
+                    slider.style.marginTop = '46px'
+            }
+            
+
+        </script>
+        
+    </div>
+</body>
+</html>
